@@ -148,6 +148,7 @@
 
 .subpage {
     background: url('../images/bg_menu_top.png') no-repeat center top / contain;
+    background-size: cover; //220905
     background-repeat: repeat-x;
     height: calc(100% - 67px);
     margin-bottom: 120px;
@@ -170,12 +171,13 @@
     .content {
         height: calc(100% - 60px);
         height: 100%;
+        padding-bottom: 50px;
 
         .content-inner {
             height: calc(100% - 100px);
             padding-top: 0;
             height: auto;
-            padding-bottom: 100px;
+            padding-bottom: 64px; 
         }
     }
 }
@@ -496,6 +498,9 @@ body.wave {
 
 
 
+.form-container { 
+    margin-bottom: 20px;
+}
 //[form type]
 .input-label {
     font-size: 1.6rem;
@@ -716,6 +721,7 @@ body.wave {
     padding-left: 24px;
     padding-right: 24px;
     z-index: 3;
+    padding-bottom: 40px;
 
     &::before {
         content: '';

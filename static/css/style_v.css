@@ -74,12 +74,12 @@
 /* COLOR SET*/
 .col-blue {
   color: #1A5DAC;
-  font-style: oblique;
+  font-style : oblique;
 }
 
 .col-red {
   color: #e22f26;
-  font-style: oblique;
+  font-style : oblique;
 }
 
 .col-black {
@@ -651,7 +651,6 @@ input, textarea, select {
 
 .subpage {
   background: url("../images/bg_menu_top.png") no-repeat center top/contain;
-  background-size: cover;
   background-repeat: repeat-x;
   height: calc(100% - 67px);
   margin-bottom: 120px;
@@ -676,14 +675,13 @@ input, textarea, select {
 .subpage .content {
   height: calc(100% - 60px);
   height: 100%;
-  padding-bottom: 50px;
 }
 
 .subpage .content .content-inner {
   height: calc(100% - 100px);
   padding-top: 0;
   height: auto;
-  padding-bottom: 64px;
+  padding-bottom: 100px;
 }
 
 body.wave .content {
@@ -992,10 +990,6 @@ body.wave .content .bg-wavebox {
   border-bottom: 1px solid #707070;
 }
 
-.form-container {
-  margin-bottom: 20px;
-}
-
 .input-label {
   font-size: 1.6rem;
   font-weight: 700;
@@ -1220,7 +1214,6 @@ body.wave .content .bg-wavebox {
   padding-left: 24px;
   padding-right: 24px;
   z-index: 3;
-  padding-bottom: 40px;
 }
 
 .bg-wavebox::before {
@@ -1960,6 +1953,7 @@ body.wave .content .bg-wavebox {
   background-position-x: 30px;
 }
 
+/*영문 소셜로그인  구글, 페이스북 시작*/
 .btn-login-sns--google {
   background: transparent;
   border: 1px solid #C7C7C7;
@@ -1991,6 +1985,7 @@ body.wave .content .bg-wavebox {
   background-image: url("../images/ic_sns_facebook.svg");
   border-right-color: transparent;
 }
+/*영문 소셜로그인  구글, 페이스북 끝*/
 
 .content-view {
   padding-left: 24px;
@@ -2007,20 +2002,20 @@ body.wave .content .bg-wavebox {
 }
 
 /*220630추가-소셜회원가입 시작*/
+
 .join-form_agree .btn-area > button {
   width: 180px;
   height: 50px;
   line-height: 50px;
 }
-
 .join-form_agree .sns-btn-list {
   margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .join-form_agree .sns-btn-list > button {
@@ -2049,11 +2044,11 @@ body.wave .content .bg-wavebox {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 16px 28px 16px 34px;
   border-bottom: 1px solid #ddd;
   min-height: 70px;
@@ -2082,8 +2077,8 @@ body.wave .content .bg-wavebox {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
 }
@@ -2115,7 +2110,7 @@ body.wave .content .bg-wavebox {
   height: 34px;
   line-height: 34px;
   background: #444;
-  border-radius: 5px;
+  border-radius:5px;
 }
 
 .ch-sq-container {
@@ -2129,7 +2124,6 @@ body.wave .content .bg-wavebox {
   -ms-user-select: none;
   user-select: none;
 }
-
 .ch-sq-container input {
   position: absolute;
   opacity: 0;
@@ -2137,13 +2131,11 @@ body.wave .content .bg-wavebox {
   height: 0;
   width: 0;
 }
-
 .ch-sq-container input:checked ~ .checkmark {
   border: 1px solid #164494;
   border-color: #164494 !important;
   background-color: #164494;
 }
-
 .ch-sq-container input:checked ~ .checkmark:after {
   display: block;
   content: "\e92b";
@@ -2163,7 +2155,6 @@ body.wave .content .bg-wavebox {
   left: -1px;
   top: -1px;
 }
-
 .ch-sq-container .checkmark {
   position: absolute;
   top: 0;
@@ -2180,7 +2171,7 @@ body.wave .content .bg-wavebox {
   width: 100%;
   height: 50px;
   background-color: #2db400;
-  border-radius: 5px;
+  border-radius:5px;
   color: #fff;
   font-size: 14px;
   margin-top: 20px;
@@ -2188,11 +2179,11 @@ body.wave .content .bg-wavebox {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-weight: 500;
 }
 
@@ -2204,7 +2195,7 @@ body.wave .content .bg-wavebox {
   width: 100%;
   height: 50px;
   background-color: #f5ca20;
-  border-radius: 5px;
+  border-radius:5px;
   color: #3b1f1e;
   font-size: 14px;
   margin-top: 10px;
@@ -2212,11 +2203,11 @@ body.wave .content .bg-wavebox {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-weight: 500;
 }
 
@@ -2230,11 +2221,10 @@ body.wave .content .bg-wavebox {
   font-size: 1.5rem;
   text-align: center;
   height: 44px;
-  border-radius: 5px;
+  border-radius:5px;
   line-height: 44px;
   padding: 0 30px;
 }
-
 .btn-connect span::after {
   content: '';
   width: 11px;
@@ -2244,8 +2234,9 @@ body.wave .content .bg-wavebox {
   vertical-align: middle;
   margin-left: 7px;
 }
-
 /*220630추가-소셜회원가입 끝*/
+
+
 .content-login {
   padding-left: 24px;
   padding-right: 24px;
@@ -2499,7 +2490,6 @@ body.wave .content .bg-wavebox {
 
 .content-simulate3 .btn-area {
   margin-top: 3rem;
-  margin-bottom: 2rem;
 }
 
 .content-simulate3 .btn-area .btn-start {
@@ -2807,10 +2797,8 @@ body.wave .content .bg-wavebox {
   border-bottom: 2px solid #B5B5B5;
 }
 
-.prd-view .Note {
-  padding: 20px 15px;
-  margin-bottom: 100px;
-  background: #F4F4F4;
+.prd-view .Note{
+  padding: 20px 15px; margin-bottom:100px; background:#F4F4F4; 
 }
 
 .member-quit .icon-quit {
@@ -3146,8 +3134,3 @@ body.wave .content .bg-wavebox {
 .bizdata .item .text .title04 {
   padding-bottom: 5px;
 }
-
-.bizdata {
-  margin-bottom: 4rem;
-}
-/*# sourceMappingURL=style.css.map */

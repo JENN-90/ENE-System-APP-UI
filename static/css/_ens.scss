@@ -341,7 +341,247 @@
         padding-top: 27px !important;
     }
 }
+/*220630추가-소셜회원가입 시작*/
 
+.join-form_agree .btn-area>button {
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.join-form_agree .sns-btn-list {
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.join-form_agree .sns-btn-list>button {
+    width: 154px;
+    margin-right: 12px;
+    margin-top: 0;
+}
+
+.join-form_agree .agreement-list {
+    border-top: 2px solid #222;
+}
+
+.join-form_agree .agreement-list .label-tit {
+    color: #164494;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.join-form_agree .agreement-list .label-tit2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.join-form_agree .agreement-list .agreement-list-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 16px 28px 16px 34px;
+    border-bottom: 1px solid #ddd;
+    min-height: 70px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    background: #fcfcfc;
+}
+
+.join-form_agree .agreement-list .agreement-list-box.bg-white {
+    background: #fff;
+    font-weight: 500;
+}
+
+.join-form_agree .agreement-list .agreement-list-box.padding-set1 {
+    padding-top: 29px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+.join-form_agree .agreement-list .agreement-list-input {
+    background: #fff;
+    font-weight: 500;
+    padding: 9px 28px 9px 28px;
+    border-bottom: 1px solid #ddd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.join-form_agree .agreement-list .agreement-list-input label,
+.join-form_agree .agreement-list .agreement-list-input .input-box {
+    display: inline-block;
+}
+
+.join-form_agree .agreement-list .agreement-list-input label {
+    min-width: 60px;
+}
+
+.join-form_agree .agreement-list .agreement-list-input .input-box {
+    width: 400px;
+    margin-left: 10px;
+}
+
+.join-form_agree .agreement-list .agreement-list-input input {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+}
+
+.join-form_agree .btn-view {
+    font-size: 1.4rem;
+    color: #fff;
+    width: 120px;
+    height: 34px;
+    line-height: 34px;
+    background: #444;
+    border-radius: 5px;
+}
+
+.ch-sq-container {
+    display: block;
+    position: relative;
+    padding-left: 32px;
+    line-height: 18px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ch-sq-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.ch-sq-container input:checked~.checkmark {
+    border: 1px solid #164494;
+    border-color: #164494 !important;
+    background-color: #164494;
+}
+
+.ch-sq-container input:checked~.checkmark:after {
+    display: block;
+    content: "\e92b";
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+
+.ch-sq-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 2px;
+    border: 1px solid #999;
+}
+
+.btn-naver {
+    width: 100%;
+    height: 50px;
+    background-color: #2db400;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.btn-naver img {
+    margin-right: 15px;
+}
+
+.btn-kakao {
+    width: 100%;
+    height: 50px;
+    background-color: #f5ca20;
+    border-radius: 5px;
+    color: #3b1f1e;
+    font-size: 14px;
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.btn-kakao img {
+    margin-right: 15px;
+}
+
+.btn-connect {
+    background: #164494;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 44px;
+    border-radius: 5px;
+    line-height: 44px;
+    padding: 0 30px;
+}
+
+.btn-connect span::after {
+    content: '';
+    width: 11px;
+    height: 9px;
+    background: url(../images/icon/ic_arrow.png) no-repeat center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 7px;
+}
+
+/*220630추가-소셜회원가입 끝*/
 .content-login {
     padding-left: 24px;
     padding-right: 24px;
@@ -612,6 +852,7 @@
 
     .btn-area {
         margin-top: 3rem;
+        margin-bottom: 2rem;
 
         .btn-start {
             width: 202px;
@@ -855,21 +1096,20 @@
         // overflow: hidden;
         // text-overflow: ellipsis;
 
-        ._en {
-            display: block;
-        }
+        // ._en {
+        //     display: block;
+        // }
     }
 
     &.imported {
         .prd-list-item_title {
-            //overflow: hidden;
-            // text-overflow: ellipsis;
-            // display: -webkit-box;
-            // -webkit-line-clamp: 2;
-            // -webkit-box-orient: vertical;
-            // max-height: 42px;
-            min-height: 42px;
-            //text-align: left;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            max-height: 42px;
+            height: 42px;
             word-break: keep-all;
 
         }
@@ -882,17 +1122,18 @@
     padding-bottom: 6rem;
 
     figure {
-        margin: 0 0 6rem 0;
+        margin: 0 0 8rem 0;
     }
 
     .prd-thumb {
         text-align: center;
+        margin: 50px 0 20px 0;
     }
 
     .prd-name {
         color: #326D8F;
         font-weight: 700;
-        font-size: 1.6rem;
+        font-size: 3rem;
         display: block;
     }
 
@@ -931,6 +1172,11 @@
                 border-bottom: 2px solid #B5B5B5;
             }
         }
+    }
+     .Note {
+        padding: 20px 15px;
+        margin-bottom: 100px;
+        background: #F4F4F4;
     }
 }
 
@@ -1300,3 +1546,5 @@
         }
     }
 }
+
+.bizdata { margin-bottom: 4rem;}
